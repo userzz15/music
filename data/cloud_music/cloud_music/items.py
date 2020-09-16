@@ -13,8 +13,6 @@ class CloudMusicItem(scrapy.Item):
     singer_name = scrapy.Field()
     #歌名
     music_name = scrapy.Field()
-    #时长
-    duration = scrapy.Field()
     #专辑
     album = scrapy.Field()
     #歌曲url
@@ -22,4 +20,4 @@ class CloudMusicItem(scrapy.Item):
     #地区
     area_name = scrapy.Field()
     #所属类别
-    sub_categorys_name = scrapy.Field()
+    sub_category_name = scrapy.Field()
